@@ -7,9 +7,9 @@
             const string MyName = "Jane"; // создание константы
             Console.WriteLine(MyName);
 
-            Console.WriteLine("Привет, мир"); //вывод литералов
-            Console.WriteLine("Мне 27 лет");
-            Console.WriteLine("My name is Jane");
+            Console.WriteLine("\t Привет, мир"); //вывод литералов
+            Console.WriteLine("\t Мне 27 лет");
+            Console.WriteLine("\t My name is \n Jane");
 
             Console.ReadKey();
         }
