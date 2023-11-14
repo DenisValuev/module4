@@ -5,8 +5,9 @@
         static void Main(string[] args)
         {
             string MyName;
-            MyName = "Denis";
+            MyName = "Jane";
             Console.WriteLine(MyName);
+            Console.ReadKey();
         }
     }
 }
