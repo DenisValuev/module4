@@ -15,6 +15,12 @@
 
             Console.WriteLine(true); // вывод логических литералов
             Console.WriteLine(false);
+
+            // анкета
+            byte age = 27;
+            bool pet = true;
+            double size = 37.5;
+            Console.WriteLine("My name is {0} \nMy age is {1} \nDo I have a pet? {2} \nMy shoe size is {3}", MyName, age, pet, size);
             Console.ReadKey();
         }
     }
