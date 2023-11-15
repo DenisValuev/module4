@@ -26,7 +26,11 @@
             // перечесление
             DaysOfWeek MyFavoriteDay = DaysOfWeek.Friday;
             Console.WriteLine(MyFavoriteDay);
-            
+
+            // Задание №3.4.3 Светофор
+            Semaphore ColorSemNow = Semaphore.Green;
+            Console.WriteLine(ColorSemNow);
+
         }
         enum DaysOfWeek : byte
         {
@@ -34,6 +38,14 @@
             Monday,
             Wednesday,
             Friday
+        }
+
+        // Светофор
+        enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
         }
     }
 
