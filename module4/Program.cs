@@ -31,6 +31,10 @@
             Semaphore ColorSemNow = Semaphore.Green;
             Console.WriteLine(ColorSemNow);
 
+            // ввод строки 
+            Console.WriteLine("Введите: Цыга на цыпочках цыпленку цыкнул цыц");
+            string str = Console.ReadLine();
+            Console.WriteLine(str);
         }
         enum DaysOfWeek : byte
         {
