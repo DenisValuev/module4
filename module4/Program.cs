@@ -35,6 +35,19 @@
             Console.WriteLine("Введите: Цыга на цыпочках цыпленку цыкнул цыц");
             string str = Console.ReadLine();
             Console.WriteLine(str);
+
+            //Деление
+            double result = 5.0 / 2.0;
+            Console.WriteLine("5 / 2 = {0}", result);
+            //Инкремент постфиксный
+            int counter = 10;
+            Console.WriteLine("Value : {0} Increment: {1}", counter, counter++);
+            Console.WriteLine(counter);
+
+            int k = -1;
+            int b = 2;
+            b = b - k;
+            Console.WriteLine(b);
         }
         enum DaysOfWeek : byte
         {
