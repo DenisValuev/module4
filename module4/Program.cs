@@ -51,8 +51,10 @@
 
             // Преобразование типов
             Console.Write("Введите свой возраст: ");
-            int MyAge = Convert.ToInt32(Console.ReadLine());
+            byte MyAge = checked ((byte) int.Parse(Console.ReadLine()));
             Console.WriteLine("Ваш возраст: {0}", MyAge);
+
+
         }
         enum DaysOfWeek : byte
         {
