@@ -60,6 +60,15 @@
             byte Day = byte.Parse(Console.ReadLine());
             Console.WriteLine("Ваш любимый день {0}", (DayOfWeek)Day);
 
+            // Неявная типизация и преобразование
+            Console.Write("Введите Ваше имя ");
+            var NewName = Console.ReadLine();
+            Console.Write("Введите Ваш возраст ");
+            var NewAge = checked((byte)int.Parse(Console.ReadLine()));
+            Console.Write("Введите Ваш любимы день ");
+            var NewDay = (DayOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine("Вас зовут {0} \nВам {1} лет \nВаш любимый день {2}", NewName, NewAge, NewDay);
+
         }
         enum DaysOfWeek : byte
         {
