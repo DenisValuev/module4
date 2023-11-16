@@ -65,9 +65,19 @@
             var NewName = Console.ReadLine();
             Console.Write("Введите Ваш возраст ");
             var NewAge = checked((byte)int.Parse(Console.ReadLine()));
-            Console.Write("Введите Ваш любимы день ");
+            Console.Write("Введите Ваш любимый день ");
             var NewDay = (DayOfWeek) int.Parse(Console.ReadLine());
             Console.WriteLine("Вас зовут {0} \nВам {1} лет \nВаш любимый день {2}", NewName, NewAge, NewDay);
+
+            //Финальное задание Анкетирование
+            Console.Write("Пользователь, пожалуйста, представьтесь \nВведите Ваше имя: ");
+            var AnketaName = Console.ReadLine();
+            Console.Write("Введите свой возраст: ");
+            var AnketaAge = checked((byte)int.Parse(Console.ReadLine()));
+            Console.WriteLine("Ваше имя {0} и Вам {1} ", AnketaName, AnketaAge);
+            Console.Write("Введите Вашу дату рождения: ");
+            var birthdate = Console.ReadLine();
+            Console.WriteLine("Ваш день рождения {0}", birthdate);
 
         }
         enum DaysOfWeek : byte
