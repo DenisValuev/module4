@@ -48,6 +48,11 @@
             int b = 2;
             b = b - k;
             Console.WriteLine(b);
+
+            // Преобразование типов
+            Console.Write("Введите свой возраст: ");
+            int MyAge = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ваш возраст: {0}", MyAge);
         }
         enum DaysOfWeek : byte
         {
