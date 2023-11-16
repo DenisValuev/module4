@@ -54,14 +54,19 @@
             byte MyAge = checked ((byte) int.Parse(Console.ReadLine()));
             Console.WriteLine("Ваш возраст: {0}", MyAge);
 
+            // Задание 3.7.4
+
+            Console.Write("Какой Ваш любимый день недели? ");
+            byte Day = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Ваш любимый день {0}", (DayOfWeek)Day);
 
         }
         enum DaysOfWeek : byte
         {
-            Tuesday,
-            Monday,
-            Wednesday,
-            Friday
+            Tuesday = 2,
+            Monday = 1,
+            Wednesday = 3,
+            Friday = 4
         }
 
         // Светофор
